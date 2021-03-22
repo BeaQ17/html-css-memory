@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nerko One', cursive;
+    
+    background-color: lightblue;
+}
+
+
+header{
+    height: 100px;
+    background-color: blue;
+}
+
+.title{
+    line-height: 100px;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+
+/* main cards */
+.table{
+    width: 70%;
+    margin: auto;
+    background-color: aqua;
+}
+
+
+.row{
+    width: 100%;
+}
+
+.card{
+    background-image: url(memory_img/pattern.png);
+    background-size: 100%;
+    border-radius: 10px;
+    height: 200px;
+    width: 170px;
+    display: inline-block;
+}
+
+
+/* footer */
+footer{
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 30px;
+}
